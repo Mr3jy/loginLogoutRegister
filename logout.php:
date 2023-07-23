@@ -1,1 +1,11 @@
-login.php:
+<?php
+header("Content-Type: application/json");
+
+// Logout process (if any, e.g., clearing session data, etc.)
+// ...
+
+$response["success"] = true;
+$response["message"] = "Logout successful";
+
+echo json_encode($response);
+?>
